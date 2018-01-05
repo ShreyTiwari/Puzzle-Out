@@ -18,10 +18,7 @@ import permutations  #importing module permutations.py whoch has functions for
                      #returning permuted lists for operarotrs and operands
 
         
-print("WELCOME.\nThis is program based on numbers.\nThe user enters four numbers and a result.\
-\nAll possible arithmetic operations (+,-,x,/) are performed on those four numbers.\
-\nOnly those combinations which will evaluate to that result are displayed.")
-
+print("WELCOME.\nThis is program based on numbers.\nThe user enters four numbers and a result.\nAll possible arithmetic operations (+,-,x,/) are performed on those four numbers.\nOnly those combinations which will evaluate to that result are displayed.")
 
         
 condition = True
