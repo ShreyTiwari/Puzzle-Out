@@ -29,6 +29,7 @@ while(condition):
         '''
         For loop below inputs 4 numbers and appensd it to empty list per_lis[]. 
         '''
+        
         print()
         print("Please enter the required positive single digit numbers  :\n")
         for i in range(4):
@@ -63,8 +64,6 @@ while(condition):
          
                 
         lis_opr = ['/','+','-','*']            #list containing four operators
-
-
 
 
         pop_per = (permutations.permut_nums(per_lis))
