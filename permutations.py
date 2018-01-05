@@ -30,9 +30,9 @@ def permut_nums(x):
                 for j in range(4):
                         for k in range(4):
                                 for l in range(4):
-                                        if(l!= k and l!= j and l!= i):                                                #this ensures that all four elements
-                                                if(k!= j and k!= i):                                                      #will be pointing to different locations in the list, even
-                                                        if( j!= i ):                                                             #if they hold the same values.
+                                        if(l!= k and l!= j and l!= i):                                             #this ensures that all four elements
+                                                if(k!= j and k!= i):                                               #will be pointing to different locations in the list,
+                                                        if( j!= i ):                                               #even if they hold the same values.
                                                                 permuted.append((x[i]+x[j]+x[k]+x[l]))
                                                                 
  
