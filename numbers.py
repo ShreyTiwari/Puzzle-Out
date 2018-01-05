@@ -11,12 +11,18 @@
         4*5*5-1 =  99
         5*4*5-1 =  99
 
-        '''
-import permutations  #importing module permutations.py whoch has functions for
-                                                    #returning permuted lists for operarotrs and operands
+ '''
 
-print("WELCOME.\nThis is program based on numbers.\n The user enters four numbers and a result.\nAll possible arithmetic operations (+,-,x,/)  are performed on those four numbers.\nOnly those combinations which will evaluate to that result are displayed.")
-  
+
+import permutations  #importing module permutations.py whoch has functions for
+                     #returning permuted lists for operarotrs and operands
+
+        
+print("WELCOME.\nThis is program based on numbers.\nThe user enters four numbers and a result.\
+\nAll possible arithmetic operations (+,-,x,/) are performed on those four numbers.\
+\nOnly those combinations which will evaluate to that result are displayed.")
+ 
+        
 condition = True
 while(condition):
 
@@ -114,5 +120,4 @@ while(condition):
         choice = input("\nDo you want to continue (y/n) : ")
         if(choice == 'n'):
             condition = False
-                    
-
+                   
